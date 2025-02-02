@@ -1,0 +1,55 @@
+{
+  "name": "create-react-appp",
+  "version": "0.0.0",
+  "description": "Set up a modern react web app by running one command",
+  "homepage": "https://github.com/codiume/create-react-appp.git",
+  "keywords": ["cli", "react", "react-app", "create-react-app"],
+  "author": "MHD <m@codiume.com>",
+  "contributors": [
+    {
+      "name": "MHD",
+      "url": "https://x.com/mhdcode"
+    }
+  ],
+  "bin": {
+    "create-react-appp": "index.js",
+    "crap": "index.js"
+  },
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "prebuild": "pnpm check-lint && pnpm check-types",
+    "build": "unbuild",
+    "prepack": "unbuild",
+    "lint": "biome lint --write .",
+    "format": "biome format --write .",
+    "check-lint": "biome check src",
+    "check-types": "tsc --noEmit",
+    "changeset": "changeset",
+    "changeset:version": "changeset version && pnpm run format",
+    "changeset:publish": "pnpm build && changeset publish"
+  },
+  "engines": {
+    "node": "^18.0.0 || ^20.0.0 || >=22.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codiume/create-react-appp.git"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.12",
+    "@total-typescript/tsconfig": "^1.0.4",
+    "@types/minimist": "^1.2.5",
+    "@types/prompts": "^2.4.9",
+    "minimist": "^1.2.8",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2",
+    "typescript": "^5.7.3",
+    "unbuild": "^3.3.1"
+  }
+}
