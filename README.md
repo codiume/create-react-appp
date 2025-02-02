@@ -74,11 +74,11 @@ Please see the [Changelog](CHANGELOG.md) for more information on what has change
 Please see the [LICENSE](LICENSE) for more information.
 
 [npm]: https://www.npmjs.com/package/create-react-appp
-[version-badge]: https://img.shields.io/npm/v/%40codiume%2Fhooks.svg
-[downloads-badge]: https://img.shields.io/npm/dt/%40codiume%2Fhooks
+[version-badge]: https://img.shields.io/npm/v/create-react-appp.svg
+[downloads-badge]: https://img.shields.io/npm/dt/create-react-appp
 [github-actions]: https://github.com/codiume/create-react-appp/actions/workflows/build.yml
 [github-actions-badge]: https://github.com/codiume/create-react-appp/actions/workflows/build.yml/badge.svg?branch=main
-[typescript-badge]: https://img.shields.io/npm/types/%40codiume%2Fhooks
+[typescript-badge]: https://img.shields.io/npm/types/create-react-appp
 [makepr]: https://makeapullrequest.com
 [makepr-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square?style=flat
 [biome]: https://biomejs.dev
