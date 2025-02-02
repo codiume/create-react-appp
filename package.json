@@ -3,7 +3,12 @@
   "version": "0.0.1",
   "description": "Set up a modern react web app by running one command",
   "homepage": "https://github.com/codiume/create-react-appp.git",
-  "keywords": ["cli", "react", "react-app", "create-react-app"],
+  "keywords": [
+    "cli",
+    "react",
+    "react-app",
+    "create-react-app"
+  ],
   "author": "MHD <m@codiume.com>",
   "contributors": [
     {
@@ -18,7 +23,10 @@
   "type": "module",
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "prebuild": "pnpm check-lint && pnpm check-types",
     "build": "unbuild",
@@ -37,7 +45,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codiume/create-react-appp.git"
+    "url": "git+https://github.com/codiume/create-react-appp.git"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
