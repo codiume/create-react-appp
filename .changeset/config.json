@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "create-react-appp"
+      "repo": "codiume/create-react-appp"
     }
   ],
   "commit": true,
