@@ -7,7 +7,9 @@
 [![Typescript][typescript-badge]][npm]
 [![Formatted with Biome][biome-badge]][biome]
 
-Set up a modern react web app by running one command.
+As we bid farewell to the deprecated `create-react-app` CLI that helped millions of developers bootstrap projects since 2016, we're proud to introduce `create-react-appp` - affectionately known as CRAP (Create React App Perfected) - a spiritual successor that combines CRA's simplicity with today's best practices.
+
+With CRAP you can set up a modern react web app by running one command.
 
 ## Get Started Immediately
 
@@ -38,6 +40,15 @@ npx create-react-appp my-app
 ```bash
 echo "I'm a carrot farmer"
 ```
+
+## So... what does `P` stands for ?
+
+- Pro.
+- Perfected.
+- Polyfill.
+- Plus.
+- Prime.
+- You can add your own here.
 
 ## Contributing
 
