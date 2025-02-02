@@ -1,6 +1,6 @@
 {
   "name": "create-react-appp",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Set up a modern react web app by running one command",
   "homepage": "https://github.com/codiume/create-react-appp.git",
   "keywords": ["cli", "react", "react-app", "create-react-app"],
